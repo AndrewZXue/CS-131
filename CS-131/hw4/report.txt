@@ -1,0 +1,86 @@
+Zhouyang Xue
+CS131 HW#4
+Report
+
+There are in total two files submitted for this homework.
+kenken.pl: the prolog file that contains the source code
+	of this homework.
+Report.txt: recording the performance for kenken/3
+	and plain_kenken/3
+	Also containing the solution for no-op kenken.
+
+
+Performance:
+1.
+At first, I tried to test both kenken/3 and plain_kenken/3
+On the given test case.
+Kenken/3 finds the solution within 0.5 secs.
+While plain_kenken/3 ran for 3 minutes or so and still couldn't
+Find the solution. 
+So I changed the test case to a easier one.
+
+2.
+I ran kenken and plain_kenken on a 4*4 test case individually,
+And used statistics to record the runtime.
+
+Absolute time:
+kenken: 0.093 sec
+plain_kenken: 2.580 sec
+
+As it turns out, plain_kenken initiates with all possible patterns,
+Thus having a way worse performance than kenken.
+The more complicated the puzzle is, the less efficient plain_kenken
+Is, compared with kenken.
+
+
+No-op kenken:
+
+There are 4 terms passed in to the solver:
+N : length of row/column
+C : no-op constraints
+T : (solution) solution for the matrix
+O : (solution) solution for operations over each no-op constraint
+
+The performance of the solver should look like this:
+noop_kenken_testcase(
+	2,
+	[
+	    (5, [[1|1], [1|2], [2|1]])
+	]
+	).
+
+noop_kenken_testcase(N, C),
+noop_kenken(N, C, T, O).
+This should print out:
+
+T = [[1, 2],[2, 1]]
+O = [ +(5, [[1|1], [1|2], [2|1]])]
+
+A high-level idea for the implementation is:
+
+1. Brutal force:
+Essentially, there are only four operations,
+i.e. +, -, *, /
+For each no-op constraint, we could simply try all of the four
+Operators to see if a solution is available.
+If so, T is the solution, and keep records of the operators for 
+The final result of O.
+However, this approach is extremely inefficient.
+When the puzzle gets complicated, the run time complexity grows exponentially.
+
+2. Set boarders for operations
+For example:
+If the puzzle is 3*3,
+Then we know that the largest difference of two numbers is 2.
+Therefore, any constraint with a target number larger than 2 cannot be 
+A subtraction.
+Likewise, the maximum sum is 18, so any constraint with a target 
+Number larger than 18 can only be multiplication.
+etc.
+
+
+
+
+
+
+

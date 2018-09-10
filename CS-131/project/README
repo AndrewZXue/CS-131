@@ -1,0 +1,12 @@
+Manual:
+
+To set up the server, the command format is as following:
+
+> python3 server_herd.py [server_name]
+
+Note:
+
+At line 9, there is a debug_flag.
+If you don't want to see anything print out while the server is running,
+please toggle the debug_flag from True to False,
+then nothing would be printed out, but still logged.

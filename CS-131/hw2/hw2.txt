@@ -1,0 +1,56 @@
+Zhouyang Xue
+HW2 Assessment
+
+HW2 includes a naive grammar context parser,
+Written in Ocaml.
+
+The basic logic behind my program is:
+
+1. Start with a non-terminal expression
+2. Find the list of rules that corresponds to it
+3. Use a recursive function (called nonterminal_matcher)
+   to go over each rule in the rule list.
+4. For each rule, if it hits any terminals, 
+   Record the terminals down and move forward.
+   This is done in another function called terminal_matcher
+5. Otherwise, go to nonterminal_matcher again to
+   Expand this nonterminal rule.
+6. Util all expressions extended from this rule become terminals,
+   Pass the terminal sequence to acceptor
+7. If accepted, job's done
+8. Otherwise, go back to nonterminal_matcher to check the next rule
+   In the rule list
+9. If all rules are checked but none accepted,
+   Return None
+
+Essentially, the main part of the program is a set of mutual recursive
+Functions - nonterminal_matcher and terminal_matcher.
+Nonterminal_matcher : expand the rules form the rule list
+Terminal_matcher : matching terminals based on the rule
+
+My approach is the more similar-to-actual-parsing-process
+Kind of method. It's easy to understand but not very much easy to write.
+
+I used a lot of syntax sugar and currying. Without them the logic flow
+Simply grows way too messy.
+
+There were 3 most difficult challenges for me during programming:
+1. Mutual recursive functions. Note that the second function
+   Should start with "and" rather than "let rec".
+2. The most tricky part of this project for me is that 
+   The final return of the program is a function. It takes a long time
+   To get used to the style of functional programming language. It also
+   Takes a lot of time to debug, too. Frequently the return type doesn't
+   Match what I expected.
+3. Surprisingly, It's "=".
+   In one comparison, I used "==", and the system doesn't send any warning
+   Or error message. But the write way is to use "=".
+   It took me a long time to find this bug.
+
+Weakness of my program:
+Might have bad performance on complex grammar.
+Since within the mutually recursive functions, I call each other very frequently,
+The overhead might be huge.
+Therefore, complex grammar and very strict acceptor might lead to bad performance.
+
+ 

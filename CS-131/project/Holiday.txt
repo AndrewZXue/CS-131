@@ -1,0 +1,19 @@
+Server Running: Holiday
+Connected to ('127.0.0.1', 50122)
+Connected to ('127.0.0.1', 50126)
+Data received from ('127.0.0.1', 50122)
+Connection from Holiday to Welsh: AT Goloman 41677726.38893652 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450
+Connection from Holiday to Wilkes: AT Goloman 41677726.38893652 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450
+Connection from Holiday to Goloman: AT Goloman 41677726.38893652 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450
+Data received from ('127.0.0.1', 50126)
+Disconnected from ('127.0.0.1', 50122)
+Disconnected from ('127.0.0.1', 50126)
+Connected to ('127.0.0.1', 16673)
+Connected to ('127.0.0.1', 16674)
+Connected to ('127.0.0.1', 16670)
+Disconnected from ('127.0.0.1', 16670)
+Disconnected from ('127.0.0.1', 16674)
+Disconnected from ('127.0.0.1', 16673)
+Connected to ('127.0.0.1', 50132)
+Data received from ('127.0.0.1', 50132)
+Disconnected from ('127.0.0.1', 50132)

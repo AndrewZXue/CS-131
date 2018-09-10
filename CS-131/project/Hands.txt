@@ -1,0 +1,13 @@
+Server Running: Hands
+Connected to ('127.0.0.1', 50121)
+Data received from ('127.0.0.1', 50121)
+Connection from Hands to Wilkes: AT Goloman 41677726.38893652 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450
+Connection from Hands to Goloman: AT Goloman 41677726.38893652 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450
+Connected to ('127.0.0.1', 50125)
+Disconnected from ('127.0.0.1', 50121)
+Data received from ('127.0.0.1', 50125)
+Disconnected from ('127.0.0.1', 50125)
+Connected to ('127.0.0.1', 16674)
+Connected to ('127.0.0.1', 16670)
+Disconnected from ('127.0.0.1', 16670)
+Disconnected from ('127.0.0.1', 16674)

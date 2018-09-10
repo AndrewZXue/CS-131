@@ -1,0 +1,7 @@
+Server Running: Welsh
+Connected to ('127.0.0.1', 50129)
+Data received from ('127.0.0.1', 50129)
+Connection from Welsh to Holiday: AT Goloman 41677726.38893652 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450
+Disconnected from ('127.0.0.1', 50129)
+Connected to ('127.0.0.1', 16672)
+Disconnected from ('127.0.0.1', 16672)

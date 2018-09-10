@@ -1,0 +1,114 @@
+Server Running: Wilkes
+Connected to ('127.0.0.1', 50120)
+Data received from ('127.0.0.1', 50120)
+WHATSAT: kiwi.cs.ucla.edu not found!
+Connected to ('127.0.0.1', 50123)
+Data received from ('127.0.0.1', 50123)
+Connection from Wilkes to Goloman: AT Goloman 41677726.38893652 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450
+Connection from Wilkes to Hands: AT Goloman 41677726.38893652 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450
+Connection from Wilkes to Holiday: AT Goloman 41677726.38893652 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450
+Disconnected from ('127.0.0.1', 50123)
+Connected to ('127.0.0.1', 16670)
+Connected to ('127.0.0.1', 16671)
+Connected to ('127.0.0.1', 16672)
+Disconnected from ('127.0.0.1', 16671)
+Disconnected from ('127.0.0.1', 16672)
+Connected to ('127.0.0.1', 50127)
+Connected to ('127.0.0.1', 50130)
+Disconnected from ('127.0.0.1', 16670)
+Data received from ('127.0.0.1', 50127)
+Data received from ('127.0.0.1', 50130)
+Disconnected from ('127.0.0.1', 50127)
+Disconnected from ('127.0.0.1', 50130)
+Disconnected from ('127.0.0.1', 50120)
+Connected to ('127.0.0.1', 50135)
+Data received from ('127.0.0.1', 50135)
+Response Sent: AT Goloman 41677726.38893652 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450
+{
+   "html_attributions": [],
+   "results": [
+      {
+         "geometry": {
+            "location": {
+               "lat": 33.963232,
+               "lng": 118.275198
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": 34.0904474,
+                  "lng": 118.4832788
+               },
+               "southwest": {
+                  "lat": 33.8059942,
+                  "lng": 118.1024373
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+         "id": "cc4716fb43e8257686fb7422068fbc6a91700c76",
+         "name": "Suqian",
+         "photos": [
+            {
+               "height": 1536,
+               "html_attributions": [
+                  "<a href=\"https://maps.google.com/maps/contrib/116099180220706110591/photos\">YuLei Liu</a>"
+               ],
+               "photo_reference": "CmRaAAAAJx8TRSlxd32AHM9tuLz9ZkFojSXnFCFCR9KKe6Tk4zYjgLm-0x12BpJjIovC87q8RBXxriTExqsZmQjCPs9D5-Ez7Qy7zu39YPz7zDbTQc3mXx6Ju6cPLlSdZegH3BX2EhCaGBSQ9Fcz0psEKn8iJWo-GhRy0Z9MSCgb5XgQJBFBzeks19lOcQ",
+               "width": 2048
+            }
+         ],
+         "place_id": "ChIJ618ILovdxzUREdjhxZd3nWw",
+         "reference": "CmRbAAAANcx0YTGlcV401o49EFkKIEQ9XndLi8t6PzoZYaNcqoAVOc7yrDHYlRb1VSGKx-EGl97xM8x9hqUg-m2SfSjK5N1Mu8gWTrNRfFhaUzJ1-mcA42UzjynDCuAWHkVfWw59EhCt6gj4GduUebITwzJM6MntGhSwMDqIDvDbOyLLZyTxBF1aNwKlRA",
+         "scope": "GOOGLE",
+         "types": [
+            "locality",
+            "political"
+         ],
+         "vicinity": "Suqian"
+      },
+      {
+         "geometry": {
+            "location": {
+               "lat": 33.946822,
+               "lng": 118.330782
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": 34.1710627,
+                  "lng": 118.5992262
+               },
+               "southwest": {
+                  "lat": 33.7985975,
+                  "lng": 117.9944062
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+         "id": "40e95f900ad54b8556ae0f125165db92968f0e03",
+         "name": "Suyu",
+         "photos": [
+            {
+               "height": 1920,
+               "html_attributions": [
+                  "<a href=\"https://maps.google.com/maps/contrib/100532057116019971665/photos\">Anthony King</a>"
+               ],
+               "photo_reference": "CmRaAAAAP6eGjRuChvsqsXSH6E4HOmtVa9PL3_4v3P0jqky1fxu0ULkUJQLTVOLFYpzKWfkT3Z2kBfNyyIioBbC16dD02xIwLAzLTus9IyoyUNqtUMYdYQP104VXsYaTBiXwUwM2EhAig59fO15qDQxAgms3iT6YGhTJn6yVCnB22K1IBRAKeuDbOTPLug",
+               "width": 1080
+            }
+         ],
+         "place_id": "ChIJDftaQfjdxzUR_rrJGNRHftk",
+         "reference": "CmRbAAAA_PGPa_LqBEHASKMDEXN5Qb6SPj6WYGqSt87CdtTntRpMkp0rTMhW1DGOT1oCIN4tHoXMlsUsO80BQuEVdqP-KKcJhckE6x20xygUO_zwLmexuQBsYgw2Tp2vOqSyAca0EhAiSEjmEFTqOjx5CtmqLro3GhStNf6zFzoOSA1sOaebF7UDp9hDwg",
+         "scope": "GOOGLE",
+         "types": [
+            "sublocality_level_1",
+            "sublocality",
+            "political"
+         ],
+         "vicinity": "Suyu"
+      }
+   ],
+   "status": "OK"
+}
+
+
+Disconnected from ('127.0.0.1', 50135)

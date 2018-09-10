@@ -1,0 +1,29 @@
+Server Running: Goloman
+Connected to ('127.0.0.1', 50119)
+Data received from ('127.0.0.1', 50119)
+Received Message: IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450
+Connection from Goloman to Hands: AT Goloman 41677726.38893652 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450
+Connection from Goloman to Holiday: AT Goloman 41677726.38893652 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450
+Connection from Goloman to Wilkes: AT Goloman 41677726.38893652 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450
+Generated Message: AT Goloman 41677726.38893652 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450
+Disconnected from ('127.0.0.1', 50119)
+Connected to ('127.0.0.1', 16671)
+Connected to ('127.0.0.1', 16672)
+Connected to ('127.0.0.1', 16674)
+Disconnected from ('127.0.0.1', 16674)
+Disconnected from ('127.0.0.1', 16671)
+Disconnected from ('127.0.0.1', 16672)
+Connected to ('127.0.0.1', 50124)
+Connected to ('127.0.0.1', 50128)
+Data received from ('127.0.0.1', 50124)
+Data received from ('127.0.0.1', 50128)
+Connected to ('127.0.0.1', 50131)
+Disconnected from ('127.0.0.1', 50124)
+Disconnected from ('127.0.0.1', 50128)
+Data received from ('127.0.0.1', 50131)
+Disconnected from ('127.0.0.1', 50131)
+Connected to ('127.0.0.1', 50134)
+Data received from ('127.0.0.1', 50134)
+Received Message: IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450
+Generated Message: AT Goloman 41677736.90585446 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450
+Disconnected from ('127.0.0.1', 50134)
